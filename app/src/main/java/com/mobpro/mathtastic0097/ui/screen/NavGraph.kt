@@ -11,5 +11,6 @@ import androidx.navigation.compose.composable
 fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
     NavHost(navController = navController, startDestination = "home", modifier = modifier) {
         composable("home") { HomeScreen(navController) }
+        composable("operation") { OperationScreen(navController) }
     }
 }

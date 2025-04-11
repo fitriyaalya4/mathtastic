@@ -40,7 +40,7 @@ fun HomeScreen(navController: NavHostController) {
 
             Spacer(modifier = Modifier.height(40.dp))
             Button(
-                onClick = { },
+                onClick = { navController.navigate("operation") },
                 colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE9E3DA)),
                 modifier = Modifier
                     .height(60.dp)
