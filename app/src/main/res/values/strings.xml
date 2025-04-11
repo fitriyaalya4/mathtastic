@@ -2,4 +2,8 @@
     <string name="app_name">mathtastic</string>
     <string name="quiz">Quiz</string>
     <string name="logout">Logout</string>
+    <string name="choose_level">Choose Level</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
 </resources>

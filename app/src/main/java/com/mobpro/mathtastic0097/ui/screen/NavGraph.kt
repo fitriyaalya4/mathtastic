@@ -12,5 +12,9 @@ fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
     NavHost(navController = navController, startDestination = "home", modifier = modifier) {
         composable("home") { HomeScreen(navController) }
         composable("operation") { OperationScreen(navController) }
+        composable("addiction") { AdditionScreen(navController) }
+        composable("subtraction") { SubtractionScreen(navController) }
+        composable("multiplication") { MultiplicationScreen(navController) }
+        composable("division") { DivisionScreen(navController) }
     }
 }
