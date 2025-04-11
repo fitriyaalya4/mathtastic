@@ -51,7 +51,7 @@ fun AdditionScreen(navController: NavController) {
             }
 
             IconButton(
-                onClick = { /* Optional: Show menu */ },
+                onClick = { navController.navigate("more") },
                 modifier = Modifier
                     .size(60.dp)
                     .background(Color(0xFFE9E3DA), shape = CircleShape)

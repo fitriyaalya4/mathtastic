@@ -41,7 +41,7 @@ fun ScoreScreen(
             horizontalArrangement = Arrangement.End
         ) {
             IconButton(
-                onClick = { },
+                onClick = { navController.navigate("more") },
                 modifier = Modifier
                     .size(48.dp)
                     .background(Color(0xFFE9E3DA), shape = RoundedCornerShape(50))

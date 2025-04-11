@@ -175,7 +175,7 @@ fun QuizScreen(
                 fontSize = 18.sp,
                 color = Color(0xFFD83A4E)
             )
-            CircleIconButton(icon = Icons.Default.MoreVert) {}
+            CircleIconButton(icon = Icons.Default.MoreVert) { navController.navigate("more") }
         }
 
         Column(

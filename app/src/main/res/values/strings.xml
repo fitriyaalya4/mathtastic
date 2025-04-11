@@ -11,11 +11,46 @@
     <string name="false_label">FALSE</string>
     <string name="point_label">POINT</string>
     <string name="next">NEXT</string>
+    <string name="more">More</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+
     <string name="question_addition">Berapakah hasil dari penjumlahan gambar di atas?</string>
-    <string name="question_subtraction">Berapakah hasil dari penjumlahan gambar di atas?</string>
-    <string name="question_division">Berapakah hasil dari penjumlahan gambar di atas?</string>
-    <string name="question_multiplication">Berapakah hasil dari penjumlahan gambar di atas?</string>
+    <string name="question_subtraction">Berapakah hasil dari pengurangan gambar di atas?</string>
+    <string name="question_division">Berapakah hasil dari pembagian gambar di atas?</string>
+    <string name="question_multiplication">Berapakah hasil dari perkalian gambar di atas?</string>
+
     <string name="share">Bagikan</string>
     <string name="share_via">Bagikan hasil kuis via:</string>
-    <string name="share_quiz_result"> Aku baru saja menyelesaikan kuis %1$s di MathTastic!\n✅ Jawaban Benar: %2$d\n❌ Jawaban Salah: %3$d\n🏆 Skor: %4$d\n\nYuk coba juga!</string>
+    <string name="share_quiz_result">
+        Aku baru saja menyelesaikan kuis %1$s di MathTastic!
+        Jawaban Benar: %2$d
+        Jawaban Salah: %3$d
+        Skor: %4$d
+
+        Yuk coba juga!
+    </string>
+
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="about_app_name_title">Nama Aplikasi</string>
+    <string name="about_app_name_value">MathTastic</string>
+    <string name="about_purpose_title">Tujuan</string>
+    <string name="about_purpose_value">Membantu anak-anak dan pemula belajar matematika dasar dengan cara yang menyenangkan.</string>
+    <string name="about_features_title">Fitur Unggulan</string>
+    <string name="about_features_value">- Soal interaktif\n- Latihan tambah, kurang, kali, dan bagi\n- Tampilan ramah anak</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_developer_value">Dikembangkan oleh mahasiswa RPLA Telkom University</string>
+    <string name="about_version_title">Versi</string>
+    <string name="about_version_value">v1.0.0 – Dirilis April 2025</string>
+
+    <string name="help_title">Bantuan</string>
+    <string name="help_what_is">Apa itu MathTastic?</string>
+    <string name="help_what_is_desc">Aplikasi seru untuk belajar matematika dasar: tambah, kurang, kali, dan bagi.</string>
+    <string name="help_how_to_play">Cara Main</string>
+    <string name="help_how_to_play_desc">1. Pilih tombol operasi yang kamu suka.\n2. Pilih Tingkat Kesulitan.\n3. Jawab soal yang muncul.\n4. Lihat hasilmu dan coba lagi!</string>
+    <string name="help_menu">Menu Lain</string>
+    <string name="help_menu_desc">Gunakan tombol Back untuk kembali dan More untuk buka bantuan atau pengaturan.</string>
+    <string name="help_tips">Tips Seru</string>
+    <string name="help_tips_desc">Main setiap hari biar makin jago! Cocok buat anak-anak dan yang baru belajar.</string>
 </resources>

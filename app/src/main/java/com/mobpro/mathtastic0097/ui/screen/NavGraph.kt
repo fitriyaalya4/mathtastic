@@ -9,7 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 
 @Composable
-fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
+fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier){
     NavHost(navController = navController, startDestination = "home", modifier = modifier) {
         composable("home") { HomeScreen(navController) }
         composable("operation") { OperationScreen(navController) }
@@ -17,7 +17,23 @@ fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
         composable("subtraction") { SubtractionScreen(navController) }
         composable("multiplication") { MultiplicationScreen(navController) }
         composable("division") { DivisionScreen(navController) }
+        composable("more") { MoreMenuScreen(navController) }
 
+        composable("addition_easy") { AdditionEasyScreen(navController) }
+        composable("addition_medium") { AdditionMediumScreen(navController) }
+        composable("addition_hard") { AdditionHardScreen(navController) }
+
+        composable("subtraction_easy") { SubtractionEasyScreen(navController) }
+        composable("subtraction_medium") { SubtractionMediumScreen(navController) }
+        composable("subtraction_hard") { SubtractionHardScreen(navController) }
+
+        composable("multiplication_easy") { MultiplicationEasyScreen(navController) }
+        composable("multiplication_medium") { MultiplicationMediumScreen(navController) }
+        composable("multiplication_hard") { MultiplicationHardScreen(navController) }
+
+        composable("division_easy") { DivisionEasyScreen(navController) }
+        composable("division_medium") { DivisionMediumScreen(navController) }
+        composable("division_hard") { DivisionHardScreen(navController) }
 
         composable(
             route = "score/{quizType}/{trueCount}/{falseCount}/{point}",
@@ -42,22 +58,9 @@ fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
             )
         }
 
-        composable("addition_easy") { AdditionEasyScreen(navController) }
-        composable("addition_medium") { AdditionMediumScreen(navController) }
-        composable("addition_hard") { AdditionHardScreen(navController) }
+        composable("help") { HelpScreen() }
+        composable("about") { AboutScreen() }
 
-        composable("subtraction_easy") { SubtractionEasyScreen(navController) }
-        composable("subtraction_medium") { SubtractionMediumScreen(navController) }
-        composable("subtraction_hard") { SubtractionHardScreen(navController) }
-
-        composable("multiplication_easy") { MultiplicationEasyScreen(navController) }
-        composable("multiplication_medium") { MultiplicationMediumScreen(navController) }
-        composable("multiplication_hard") { MultiplicationHardScreen(navController) }
-
-        composable("division_easy") { DivisionEasyScreen(navController) }
-        composable("division_medium") { DivisionMediumScreen(navController) }
-        composable("division_hard") { DivisionHardScreen(navController) }
-
-
+        }
     }
-}
+

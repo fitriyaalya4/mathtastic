@@ -51,7 +51,7 @@ fun DivisionScreen(navController: NavController) {
             }
 
             IconButton(
-                onClick = { },
+                onClick = {  navController.navigate("more") },
                 modifier = Modifier
                     .size(60.dp)
                     .background(Color(0xFFE9E3DA), shape = CircleShape)
