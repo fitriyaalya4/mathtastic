@@ -6,4 +6,16 @@
     <string name="easy">Easy</string>
     <string name="medium">Medium</string>
     <string name="hard">Hard</string>
+    <string name="score">SCORE</string>
+    <string name="true_label">TRUE</string>
+    <string name="false_label">FALSE</string>
+    <string name="point_label">POINT</string>
+    <string name="next">NEXT</string>
+    <string name="question_addition">Berapakah hasil dari penjumlahan gambar di atas?</string>
+    <string name="question_subtraction">Berapakah hasil dari penjumlahan gambar di atas?</string>
+    <string name="question_division">Berapakah hasil dari penjumlahan gambar di atas?</string>
+    <string name="question_multiplication">Berapakah hasil dari penjumlahan gambar di atas?</string>
+    <string name="share">Bagikan</string>
+    <string name="share_via">Bagikan hasil kuis via:</string>
+    <string name="share_quiz_result"> Aku baru saja menyelesaikan kuis %1$s di MathTastic!\n✅ Jawaban Benar: %2$d\n❌ Jawaban Salah: %3$d\n🏆 Skor: %4$d\n\nYuk coba juga!</string>
 </resources>
