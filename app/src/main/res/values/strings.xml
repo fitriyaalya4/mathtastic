@@ -1,56 +1,66 @@
 <resources>
-    <string name="app_name">mathtastic</string>
-    <string name="quiz">Quiz</string>
-    <string name="logout">Logout</string>
-    <string name="choose_level">Choose Level</string>
-    <string name="easy">Easy</string>
-    <string name="medium">Medium</string>
-    <string name="hard">Hard</string>
-    <string name="score">SCORE</string>
-    <string name="true_label">TRUE</string>
-    <string name="false_label">FALSE</string>
-    <string name="point_label">POINT</string>
-    <string name="next">NEXT</string>
-    <string name="more">More</string>
-    <string name="settings">Settings</string>
-    <string name="help">Help</string>
-    <string name="about">About</string>
+        <string name="app_name" translatable="false">MathTastic</string>
+        <string name="quiz" translatable="false">Quiz</string>
+        <string name="logout" translatable="false">Logout</string>
+        <string name="choose_level">Choose Level</string>
+        <string name="easy">Easy</string>
+        <string name="medium">Medium</string>
+        <string name="hard">Hard</string>
+        <string name="score">SCORE</string>
+        <string name="true_label">CORRECT</string>
+        <string name="false_label">WRONG</string>
+        <string name="point_label">SCORE</string>
+        <string name="next">NEXT</string>
+        <string name="more">More</string>
+        <string name="settings">Settings</string>
+        <string name="help">Help</string>
+        <string name="about">About</string>
 
-    <string name="question_addition">Berapakah hasil dari penjumlahan gambar di atas?</string>
-    <string name="question_subtraction">Berapakah hasil dari pengurangan gambar di atas?</string>
-    <string name="question_division">Berapakah hasil dari pembagian gambar di atas?</string>
-    <string name="question_multiplication">Berapakah hasil dari perkalian gambar di atas?</string>
+        <string name="question_addition">What is the result of the addition above?</string>
+        <string name="question_subtraction">What is the result of the subtraction above?</string>
+        <string name="question_division">What is the result of the division above?</string>
+        <string name="question_multiplication">What is the result of the multiplication above?</string>
 
-    <string name="share">Bagikan</string>
-    <string name="share_via">Bagikan hasil kuis via:</string>
-    <string name="share_quiz_result">
-        Aku baru saja menyelesaikan kuis %1$s di MathTastic!
-        Jawaban Benar: %2$d
-        Jawaban Salah: %3$d
-        Skor: %4$d
+        <string name="share">Share</string>
+        <string name="share_via">Share quiz results via:</string>
+        <string name="share_quiz_result">
+        I just completed a %1$s quiz on MathTastic!
+        Correct Answers: %2$d
+        Wrong Answers: %3$d
+        Score: %4$d
 
-        Yuk coba juga!
+        Give it a try!
     </string>
 
-    <string name="about_title">Tentang Aplikasi</string>
-    <string name="about_app_name_title">Nama Aplikasi</string>
-    <string name="about_app_name_value">MathTastic</string>
-    <string name="about_purpose_title">Tujuan</string>
-    <string name="about_purpose_value">Membantu anak-anak dan pemula belajar matematika dasar dengan cara yang menyenangkan.</string>
-    <string name="about_features_title">Fitur Unggulan</string>
-    <string name="about_features_value">- Soal interaktif\n- Latihan tambah, kurang, kali, dan bagi\n- Tampilan ramah anak</string>
-    <string name="about_developer_title">Developer</string>
-    <string name="about_developer_value">Dikembangkan oleh mahasiswa RPLA Telkom University</string>
-    <string name="about_version_title">Versi</string>
-    <string name="about_version_value">v1.0.0 – Dirilis April 2025</string>
+        <string name="about_title">About App</string>
+        <string name="about_app_name_title">App Name</string>
+        <string name="about_app_name_value">MathTastic</string>
+        <string name="about_purpose_title">Purpose</string>
+        <string name="about_purpose_value">To help kids and beginners learn basic math in a fun way.</string>
+        <string name="about_features_title">Features</string>
+        <string name="about_features_value">
+        - Interactive questions\n
+        - Practice addition, subtraction, multiplication, division\n
+        - Child-friendly UI
+    </string>
+        <string name="about_developer_title">Developer</string>
+        <string name="about_developer_value">Developed by RPLA Telkom University students</string>
+        <string name="about_version_title">Version</string>
+        <string name="about_version_value">v1.0.0 – Released April 2025</string>
 
-    <string name="help_title">Bantuan</string>
-    <string name="help_what_is">Apa itu MathTastic?</string>
-    <string name="help_what_is_desc">Aplikasi seru untuk belajar matematika dasar: tambah, kurang, kali, dan bagi.</string>
-    <string name="help_how_to_play">Cara Main</string>
-    <string name="help_how_to_play_desc">1. Pilih tombol operasi yang kamu suka.\n2. Pilih Tingkat Kesulitan.\n3. Jawab soal yang muncul.\n4. Lihat hasilmu dan coba lagi!</string>
-    <string name="help_menu">Menu Lain</string>
-    <string name="help_menu_desc">Gunakan tombol Back untuk kembali dan More untuk buka bantuan atau pengaturan.</string>
-    <string name="help_tips">Tips Seru</string>
-    <string name="help_tips_desc">Main setiap hari biar makin jago! Cocok buat anak-anak dan yang baru belajar.</string>
+
+        <string name="help_title">Help</string>
+        <string name="help_what_is">What is MathTastic?</string>
+        <string name="help_what_is_desc">A fun app to learn basic math: add, subtract, multiply, divide.</string>
+        <string name="help_how_to_play">How to Play</string>
+        <string name="help_how_to_play_desc">
+        1. Pick your favorite operation.\n
+        2. Choose difficulty level.\n
+        3. Answer the questions.\n
+        4. Check your score and retry!
+    </string>
+        <string name="help_menu">Other Menus</string>
+        <string name="help_menu_desc">Use the Back button to return, and More to access help or settings.</string>
+        <string name="help_tips">Fun Tips</string>
+        <string name="help_tips_desc">Play daily to get better! Perfect for kids and beginners.</string>
 </resources>
